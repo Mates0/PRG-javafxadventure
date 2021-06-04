@@ -7,15 +7,26 @@ import javafx.scene.text.Text;
 
 public class Controller {
     @FXML
-    public Button btn;
+    public Button btnforward;
     @FXML
-    public Text text;
+    public Button btnleft;
+    @FXML
+    public Button btndown;
+    @FXML
+    public Button btnright;
+    @FXML
+    public Text maintext;
 
-    public void btnlevel2(ActionEvent actionEvent) {
-        text.setText("Level 2");
+    public void onBtnForward(ActionEvent actionEvent) {
     }
 
-    public void btnlevel3(ActionEvent actionEvent) {
-        text.setText("Level 3");
+    public void onBtnLeft(ActionEvent actionEvent) {
+    }
+
+    public void onBtnDown(ActionEvent actionEvent) {
+    }
+
+    public void onBtnRight(ActionEvent actionEvent) {
+
     }
 }

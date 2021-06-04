@@ -7,12 +7,14 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller">
    <children>
-      <Button fx:id="btn" layoutX="229.0" layoutY="168.0" mnemonicParsing="false" onAction="#btnlevel2" prefHeight="65.0" prefWidth="142.0" text="Level 2" AnchorPane.bottomAnchor="167.0" AnchorPane.leftAnchor="229.0" AnchorPane.rightAnchor="229.0" AnchorPane.topAnchor="168.0" />
-      <Text fx:id="text" layoutX="229.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Level 1" wrappingWidth="142.0" AnchorPane.bottomAnchor="317.0" AnchorPane.leftAnchor="229.0" AnchorPane.rightAnchor="229.0" AnchorPane.topAnchor="33.0">
+      <Button fx:id="btnforward" layoutX="443.0" layoutY="259.0" mnemonicParsing="false" onAction="#onBtnForward" prefHeight="34.0" prefWidth="74.0" text="Forward" />
+      <Button fx:id="btnleft" layoutX="376.0" layoutY="293.0" mnemonicParsing="false" onAction="#onBtnLeft" prefHeight="34.0" prefWidth="67.0" text="Left" />
+      <Button fx:id="btndown" layoutX="443.0" layoutY="327.0" mnemonicParsing="false" onAction="#onBtnDown" prefHeight="34.0" prefWidth="74.0" text="Down" />
+      <Button fx:id="btnright" layoutX="517.0" layoutY="293.0" mnemonicParsing="false" onAction="#onBtnRight" prefHeight="34.0" prefWidth="67.0" text="Right" />
+      <Text fx:id="maintext" layoutX="257.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home" textAlignment="CENTER" wrappingWidth="85.162109375" AnchorPane.bottomAnchor="346.3095703125" AnchorPane.leftAnchor="257.0" AnchorPane.rightAnchor="257.837890625" AnchorPane.topAnchor="23.6904296875">
          <font>
-            <Font size="34.0" />
+            <Font name="Corbel" size="30.0" />
          </font>
       </Text>
-      <Button fx:id="btn" layoutX="229.0" layoutY="247.0" mnemonicParsing="false" onAction="#btnlevel3" prefHeight="65.0" prefWidth="142.0" text="Level 3" AnchorPane.bottomAnchor="88.0" AnchorPane.leftAnchor="229.0" AnchorPane.rightAnchor="229.0" AnchorPane.topAnchor="247.0" />
    </children>
 </AnchorPane>
