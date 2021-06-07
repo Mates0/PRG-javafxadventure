@@ -19,7 +19,7 @@ public class Window extends Application {
         Parent root = FXMLLoader.load(
                 getClass().getResource("/example.fxml")
         );
-        Scene scene = new Scene(root, 600, 400);
+        Scene scene = new Scene(root, 800, 600);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
