@@ -1,6 +1,6 @@
-cz/educanet/Main.java
- cz.educanet.Main
 gui/Window.java
  gui.Window
+cz/educanet/Main.java
+ cz.educanet.Main
 gui/Controller.java
  gui.Controller

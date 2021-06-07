@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller">
    <children>
-      <Button fx:id="btn" layoutX="229.0" layoutY="168.0" mnemonicParsing="false" onAction="#btnlevel2" prefHeight="65.0" prefWidth="142.0" text="Level 2" AnchorPane.bottomAnchor="167.0" AnchorPane.leftAnchor="229.0" AnchorPane.rightAnchor="229.0" AnchorPane.topAnchor="168.0" />
-      <Text fx:id="text" layoutX="229.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Level 1" wrappingWidth="142.0" AnchorPane.bottomAnchor="317.0" AnchorPane.leftAnchor="229.0" AnchorPane.rightAnchor="229.0" AnchorPane.topAnchor="33.0">
+      <Button fx:id="btnforward" layoutX="458.0" layoutY="309.0" mnemonicParsing="false" onAction="#onBtnForward" prefHeight="34.0" prefWidth="67.0" text="Forward" />
+      <Button fx:id="btnleft" layoutX="399.0" layoutY="343.0" mnemonicParsing="false" onAction="#onBtnLeft" prefHeight="34.0" prefWidth="59.0" text="Left" />
+      <Button fx:id="btnright" layoutX="525.0" layoutY="343.0" mnemonicParsing="false" onAction="#onBtnRight" prefHeight="34.0" prefWidth="59.0" text="Right" />
+      <Text fx:id="maintext" layoutX="178.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home" textAlignment="CENTER" wrappingWidth="279.162109375" AnchorPane.bottomAnchor="326.759765625" AnchorPane.leftAnchor="178.0" AnchorPane.rightAnchor="142.837890625" AnchorPane.topAnchor="14.158203125">
          <font>
-            <Font size="34.0" />
+            <Font name="Aparajita" size="50.0" />
          </font>
       </Text>
-      <Button fx:id="btn" layoutX="229.0" layoutY="247.0" mnemonicParsing="false" onAction="#btnlevel3" prefHeight="65.0" prefWidth="142.0" text="Level 3" AnchorPane.bottomAnchor="88.0" AnchorPane.leftAnchor="229.0" AnchorPane.rightAnchor="229.0" AnchorPane.topAnchor="247.0" />
+      <Text fx:id="subtext" layoutX="389.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to my game" textAlignment="CENTER" wrappingWidth="205.4609375" AnchorPane.bottomAnchor="297.3798828125" AnchorPane.leftAnchor="389.0" AnchorPane.rightAnchor="5.5390625" AnchorPane.topAnchor="73.0791015625">
+         <font>
+            <Font name="Aparajita" size="25.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="img" fitHeight="237.0" fitWidth="374.0" layoutX="14.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@home.jpg" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
